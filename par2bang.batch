@@ -1,0 +1,3 @@
+#!/bin/bash
+alias par2bang="/home/webdawg/scripts/par2bang.py"
+find . -maxdepth 1 -mindepth 1 -type d -exec bash -c 'cd "$0" && /home/webdawg/scripts/par2bang.py' {} \;
